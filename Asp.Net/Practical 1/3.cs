@@ -1,3 +1,5 @@
+//Create an application for data of student
+
 using System;
 namespace Practicals_1_4
 {
