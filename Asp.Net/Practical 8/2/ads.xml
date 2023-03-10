@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>
+			https://m.media-amazon.com/images/I/81i-kL49JrL._SX342_.jpg</ImageUrl>
+			<NavigateUrl>https://www.amazon.com/Dragon-Ball-Super-Hero-Blu-ray/dp/B0BJYF3FSZ</NavigateUrl>
+		<AlternateText>
+			Buy Dragon Ball Super Hero
+		</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Dragon Ball</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/815taz8gMaL.jpg</ImageUrl>
+		<NavigateUrl>https://www.amazon.in/Jujutsu-Kaisen-Vol-2/dp/1974710033</NavigateUrl>
+		<AlternateText>Buy JJK Manga</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>JJK</Keyword>
+	</Ad>
+
+</Advertisements>
