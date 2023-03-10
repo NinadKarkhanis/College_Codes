@@ -1,3 +1,4 @@
+//Create an application that obtains four int values from the user and displays the product.
 using System;
 namespace Practicals_1_4
 {
