@@ -1,0 +1,44 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Prac8_1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <Items>
+                <asp:MenuItem Text="Home" NavigateUrl="~/homepage.aspx" Value="Home"></asp:MenuItem>
+                <asp:MenuItem Text="About us" NavigateUrl="~/aboutus.aspx" Value="About us"></asp:MenuItem>
+                <asp:MenuItem Text="Browse" NavigateUrl="~/browse.aspx" Value="Statistics">
+                    <asp:MenuItem Text="Popular" Value="popular" NavigateUrl="~/popular.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="New" NavigateUrl="~/new.aspx" Value="New"></asp:MenuItem>
+                    <asp:MenuItem Text="Release Calendar" NavigateUrl="~/calendar.aspx" Value="Services"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Genres" Value="Publications">
+                    <asp:MenuItem Text="Action" NavigateUrl="~/action.aspx" Value="Action"></asp:MenuItem>
+                    <asp:MenuItem Text="Adventure" Value="Adventure" NavigateUrl="~/adventure.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Comedy" Value="Comedy" NavigateUrl="~/comedy.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <br />
+        <br />
+        <br />
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+        <br />
+        <br />
+        <br />
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
