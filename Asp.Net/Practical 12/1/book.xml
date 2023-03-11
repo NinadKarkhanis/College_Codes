@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bookstore>
+	<book>
+		<name>The Lord Of The Rings</name>
+		<author>J.R.R. Tolkien</author>
+		<price>1,330</price>
+		<pages>1216</pages>
+	</book>
+	<book>
+		<name>Harry Potter and the Goblet of Fire</name>
+		<author>J.K. Rowling</author>
+		<price>474</price>
+		<pages>640</pages>
+	</book>
+         <book>
+		<name>Chainsaw Man, Vol. 1: Dog And Chainsaw</name>
+		<author>Tatsuki Fujimoto</author>
+		<price>449</price>
+		<pages>192</pages>
+	</book>
+</bookstore>
