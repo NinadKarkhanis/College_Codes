@@ -1,1 +1,2 @@
 see code!
+Note: add data manually in the City Table.
