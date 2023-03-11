@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/homepage.aspx" title="Home"  description="" >
+		<siteMapNode url="~/aboutus.aspx" title="About Us"  description="" />
+		<siteMapNode url="~/browse.aspx" title="Browse"  description="" >
+			<siteMapNode url="" title="Popular"  description="" />
+			<siteMapNode url="~/new.aspx" title="New"  description="" />
+			<siteMapNode url="~/calendar.aspx" title="Release Calendar"  description="" />
+
+		</siteMapNode>
+		<siteMapNode url="" title="Genres"  description="" >
+			<siteMapNode url="~/action.aspx" title="Action"  description="" />
+			<siteMapNode url="~/adventure.aspx" title="Adventure"  description="" />
+			<siteMapNode url="~/comedy.aspx" title="Comedy"  description="" />
+
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>
