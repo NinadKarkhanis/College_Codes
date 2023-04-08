@@ -1,0 +1,21 @@
+R1>
+ip route 172.168.10.0 255.255.255.0 100.10.10.2 (from r2)
+show ip route
+
+R2>
+ip route 192.168.10.0 255.255.255.0 100.10.10.1 (from r1)
+show ip route
+
+*"S" should be displayed.*
+*****Acl*******
+
+R2>
+access-list 1 deny 192.168.10.0 0.0.0.255 (from r1)
+access-list 1 permit any
+int serial 0/1/0
+ip access-group 1 in
+exit
+
+#show ip access-list 1
+
+Go to 3rd pc -> Desktop -> Cmd -> ping 192.168.10.0 -> request timed out 
