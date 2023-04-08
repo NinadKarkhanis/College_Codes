@@ -1,0 +1,14 @@
+Note: Don't write anything in the bracket
+R1>
+router ospf 1
+network 192.168.20.0 0.0.0.255 area 0 (Serial)
+network 192.168.10.0 0.0.0.255 area 0 (Gigabit)
+Ctrl+Z
+R2>
+router ospf 1
+network 192.168.20.0 0.0.0.255 area 0 (Serial)
+network 192.168.30.0 0.0.0.255 area 0 (Gigabit)
+Ctrl+z
+
+In both routers put show ip route. 
+"O" should be displayed.
