@@ -1,0 +1,11 @@
+R1>
+router rip
+network 100.10.0.0
+network 192.168.10.0
+Ctrl+z
+
+R2>
+router rip
+network 100.10.0.0
+network 172.10.0.0
+Ctrl+z
