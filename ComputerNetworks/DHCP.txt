@@ -1,0 +1,21 @@
+R1>
+ip dhcp pool lab1
+network 192.168.1.0 255.255.255.0 
+default-router 192.168.1.1
+ctrl+Z
+
+
+Go to all the pc -> desktop -> ip config -> switch to DHCP 
+
+Go to Server -> Services -> DHCP
+
+Service : On
+Pool Name : lab1
+Default Gateway: 192.168.1.1
+Start IP Address : 192.168.1.1
+SubNet Mask : 255.255.255.0
+Click -> Add
+
+Server -> IP config -> DHCP -> note ip Address
+
+Go to any of the pc -> Desktop -> Web Browser -> Put the Noted Ip Address
