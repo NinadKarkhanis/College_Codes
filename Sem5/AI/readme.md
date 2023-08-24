@@ -1,1 +1,1 @@
-##Contains algortihm codes
+# Contains Algorithm codes
