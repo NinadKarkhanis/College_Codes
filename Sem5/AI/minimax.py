@@ -42,7 +42,7 @@ def evaluate(b) :
 		elif (b[0][2] == opponent) :
 			return -10
 
-	# Else if none of them have won then return 0
+	
 	return 0
 
 
